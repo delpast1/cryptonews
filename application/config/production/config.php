@@ -17,7 +17,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | environments.
 |
 */
-$config['base_url'] = 'http://35.188.245.27/crypto-news';
+$config['base_url'] = 'http://35.188.245.27/cryptonews';
 
 /*
 |--------------------------------------------------------------------------
