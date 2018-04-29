@@ -13,6 +13,7 @@ class Login extends Admin_Controller
 
     public function index()
     {
+        
         if($this->session->userdata('adminName') && $this->session->userdata('adminName') != ""){
             redirect(site_url('dashboard'));
         } else{

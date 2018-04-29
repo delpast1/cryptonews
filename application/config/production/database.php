@@ -103,8 +103,8 @@ $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'localhost',
 	'username' => 'root',
-	'password' => '',
-	'database' => '',
+	'password' => 'ditimthatbai1',
+	'database' => 'cryptonews',
 	/*
 	'hostname' => '212.48.91.219',
 	'username' => 'quizk-ik9-u-016436',
