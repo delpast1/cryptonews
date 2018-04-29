@@ -23,9 +23,9 @@
 
         <div class="form-box" id="login-box">
             <div class='login-logo'>
-                <img src="<?php echo base_url();?>assets/admin/img/logo.png" alt="logo" />
+                <!-- <img src="<?php echo base_url();?>assets/admin/img/logo.png" alt="logo" /> -->
             </div>
-            <div class="header bg-white">
+            <div class="header bg-gray">
                 <span class="text-dark-blue">Sign In</span>
             </div>
             <form role="loginForm" id="loginForm" method="post" action="<?php echo site_url('login/doLogin');?>">
@@ -40,7 +40,7 @@
                 </div>
 
                 <div class="footer bg-gray">
-                    <button type="submit" class="btn bg-white btn-block submit logo-submit text-dark-blue">Sign me in
+                    <button type="submit" class="btn bg-grey btn-block submit logo-submit text-dark-blue">Sign me in
                     </button>
 
                     <div class="form-group has-error margin text-center">
