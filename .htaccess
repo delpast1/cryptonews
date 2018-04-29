@@ -1,7 +1,3 @@
-RewriteEngine On
-SetEnvIf Host 35.188.245.27$ CI_ENV=production
-SetEnvIf Host dev.tapid.co.uk$ CI_ENV=testing
-SetEnvIf Host localhost$ CI_ENV=development
 
 RewriteCond $1 !^(index\\.php|resources|robots\\.txt)
 RewriteCond %{REQUEST_FILENAME} !-f
