@@ -87,9 +87,9 @@ class News extends Admin_Controller
       $msg = "";
       $file_data = $this->csvimport->get_array($_FILES["csv_file"]["tmp_name"]);
 
-      if (!array_key_exists("News", $file_data[0])) {
+      if (!array_key_exists("Title", $file_data[0])) {
         $status = false;
-        $msg[] = "News collumn is missing.\n";
+        $msg[] = "Title collumn is missing.\n";
       }
 
       if (!array_key_exists("Summary", $file_data[0])) {
@@ -117,7 +117,7 @@ class News extends Admin_Controller
         $department_id = -1;
         foreach ($file_data as $row){
           $data_concept[] = array(
-            'news' => $row["News"],
+            'title' => $row["Title"],
             'summary' => $row["Summary"],
             'date' => $row["Date"],
             'tags' => $row["Tags"],
